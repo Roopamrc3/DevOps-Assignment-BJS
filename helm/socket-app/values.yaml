@@ -1,0 +1,10 @@
+image:
+  repository: roopamrc3/socket-app
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3000
+
+replicaCount: 2
